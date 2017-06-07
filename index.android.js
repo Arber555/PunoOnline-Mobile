@@ -12,10 +12,13 @@ import {
   View
 } from 'react-native';
 
+import Login from './app/components/Login/Login'
+
 export default class PunoOnline extends Component {
   render() {
     return (
-      <View style={styles.container}>
+      <Login />
+      /*<View style={styles.container}>
         <Text style={styles.welcome}>
           Welcome to React Native!
         </Text>
@@ -26,7 +29,7 @@ export default class PunoOnline extends Component {
           Double tap R on your keyboard to reload,{'\n'}
           Shake or press menu button for dev menu
         </Text>
-      </View>
+      </View>*/
     );
   }
 }
